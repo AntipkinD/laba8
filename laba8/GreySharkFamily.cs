@@ -1,4 +1,4 @@
-﻿class DolphinFamily : WaterMammals
+﻿class GreySharkFamily : Fishes
 {
     protected string genus;
     internal string Genus
@@ -6,9 +6,9 @@
         set { genus = value; }
         get { return genus; }
     }
-    protected DolphinFamily() : base()
+    protected GreySharkFamily() : base()
     {
-        Family = "дельфиновые";
+        Family = "серые акулы";
         Genus = "unknown";
     }
 }

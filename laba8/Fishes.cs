@@ -1,5 +1,4 @@
-﻿
-class WaterMammals : WaterAnimals
+﻿class Fishes : WaterAnimals
 {
     protected string family;
     internal string Family
@@ -7,13 +6,13 @@ class WaterMammals : WaterAnimals
         set { family = value; }
         get { return family; }
     }
-    protected WaterMammals() : base()
+    protected Fishes() : base()
     {
-        Groupp = "млекопитающие";
+        Groupp = "рвбы";
         Family = "unknown";
     }
     override internal void Kormlenie()
-        {
-            Sytost = true;
-        }
+    {
+        Sytost = true;
+    }
 }
