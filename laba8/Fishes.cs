@@ -1,4 +1,4 @@
-﻿class Fishes : WaterAnimals
+﻿abstract class Fishes : WaterAnimals
 {
     protected string family;
     internal string Family

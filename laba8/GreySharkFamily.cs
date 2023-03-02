@@ -1,4 +1,4 @@
-﻿class GreySharkFamily : Fishes
+﻿abstract class GreySharkFamily : Fishes
 {
     protected string genus;
     internal string Genus

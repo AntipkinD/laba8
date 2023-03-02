@@ -1,4 +1,4 @@
-﻿class Seruli : GreySharkFamily
+﻿abstract class Seruli : GreySharkFamily
 {
     protected string kind;
     internal string Kind
