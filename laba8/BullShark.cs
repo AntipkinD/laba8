@@ -1,10 +1,16 @@
 ﻿class BullShark : Seruli
 {
     protected string name;
+    protected int yo;
     internal string Name
     {
         set { name = value; }
         get { return name; }
+    }
+    internal int YO
+    {
+        set { yo = value; }
+        get { return yo; }
     }
     protected const string nutrition = "хищник";
     protected const int lifeexpectancy = 30;
@@ -13,10 +19,11 @@
         Kind = "тупорылая акула";
         Name = "NoName";
     }
-    internal BullShark(string name) : base()
+    internal BullShark(string name, int age) : base()
     {
         Kind = "тупорылая акула";
         Name = name;
+        YO = age;
     }
     override internal void Kormlenie()
     {
@@ -28,7 +35,9 @@
         if (Sytost is false)
             Golod = "голоден(а)";
         else Golod = "сыт(а)";
-        return $"имя: {Name}, \n" +
+        return $"^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" +
+            $"имя: {Name}, \n" +
+            $"возраст: {YO} лет, \n" +
             $"группа животных: {Groupp}, \n" +
             $"семейство животных: {Family}, \n" +
             $"род животных: {Genus}, \n" +

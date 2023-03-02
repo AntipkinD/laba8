@@ -1,8 +1,8 @@
 ﻿WaterAnimals[] oceanarray =
 {
-    new CommersonDolphin("Роро"),
-    new BullShark("Рири"),
-    new BullShark("Рината")
+    new CommersonDolphin("Роро", 7),
+    new BullShark("Рири", 5),
+    new BullShark("Рината", 6)
 };
 
 for (int i = 0; i < oceanarray.Length; i++)

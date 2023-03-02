@@ -1,5 +1,4 @@
-﻿
-class WaterMammals : WaterAnimals
+﻿class WaterMammals : WaterAnimals
 {
     protected string family;
     internal string Family
