@@ -1,4 +1,4 @@
-﻿abstract class WaterAnimals
+﻿abstract public class WaterAnimals
 {
     protected string golod;
     protected string groupp;
@@ -26,9 +26,6 @@
     abstract internal void Kormlenie();
     virtual internal string AllInfo()
     {
-        if (Sytost is false)
-        Golod = "голодный";
-        else Golod = "сытый";
-        return Groupp + ", " + Golod;
+        return "буль буль";
     }
 }
