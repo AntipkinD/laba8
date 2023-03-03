@@ -1,4 +1,4 @@
-﻿class CommersonDolphin : Pestruli
+﻿/*class CommersonDolphin : Pestruli
 {
     protected string name;
     protected int yo;
@@ -47,4 +47,4 @@
             $"продолжительность жизни: {lifeexpectancy} лет \n" +
             $"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
     }
-}
+}*/

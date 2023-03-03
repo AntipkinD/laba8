@@ -1,4 +1,4 @@
-﻿class BullShark : Seruli
+﻿class ICommersonDolphin : IPestruli
 {
     protected string name;
     protected int yo;
@@ -13,15 +13,15 @@
         get { return yo; }
     }
     protected const string nutrition = "хищник";
-    protected const int lifeexpectancy = 30;
-    internal BullShark() : base()
+    protected const int lifeexpectancy = 10;
+    internal ICommersonDolphin() : base()
     {
-        Kind = "тупорылая акула";
+        Kind = "дельфин Коммерсона";
         Name = "NoName";
     }
-    internal BullShark(string name, int age) : base()
+    internal ICommersonDolphin(string name, int age) : base()
     {
-        Kind = "тупорылая акула";
+        Kind = "дельфин Коммерсона";
         Name = name;
         YO = age;
     }
@@ -35,8 +35,8 @@
         if (Sytost is false)
             Golod = "голоден(а)";
         else Golod = "сыт(а)";
-        return $"^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^" +
-            $"имя: {Name}, \n" +
+        return $"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" +
+        $"имя: {Name}, \n" +
             $"возраст: {YO} лет, \n" +
             $"группа животных: {Groupp}, \n" +
             $"семейство животных: {Family}, \n" +
@@ -45,6 +45,6 @@
             $"тип питания: {nutrition}, \n" +
             $"сытость: {Golod}, \n" +
             $"продолжительность жизни: {lifeexpectancy} лет \n" +
-            $"^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^";
+            $"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~";
     }
 }

@@ -11,7 +11,7 @@
         Groupp = "рвбы";
         Family = "unknown";
     }
-    override internal void Kormlenie()
+    override public void Kormlenie()
     {
         Sytost = true;
     }

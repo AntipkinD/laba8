@@ -1,4 +1,4 @@
-﻿abstract public class WaterAnimals
+﻿public abstract class WaterAnimals
 {
     protected string golod;
     protected string groupp;
@@ -23,7 +23,7 @@
         Groupp = "unknown";
         Sytost = false;
     }
-    abstract internal void Kormlenie();
+    abstract public void Kormlenie();
     virtual internal string AllInfo()
     {
         return "буль буль";

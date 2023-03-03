@@ -1,4 +1,4 @@
-﻿/*class DolphinFamily : WaterMammals
+﻿class IDolphinFamily : IWaterMammals
 {
     protected string genus;
     internal string Genus
@@ -6,9 +6,9 @@
         set { genus = value; }
         get { return genus; }
     }
-    protected DolphinFamily() : base()
+    protected IDolphinFamily() : base()
     {
         Family = "дельфиновые";
         Genus = "unknown";
     }
-}*/
+}
