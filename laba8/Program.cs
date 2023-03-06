@@ -9,6 +9,7 @@
     //new BullShark("Рината", 6),
     new ICommersonDolphin(),
     //new BullShark()
+
 };
 
 
